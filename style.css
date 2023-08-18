@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     max-width: 1500px;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 15px;
 }
 
 #nav-eco {
@@ -53,9 +53,9 @@ nav img:hover {
 }
 
 #slider {
-    width: 800px;
+    width: 1000px;
     height: 400px;
-    margin: 0 auto;
+    margin: 30px auto;
     background-color: white;
     overflow: hidden;
 }
@@ -77,13 +77,13 @@ nav img:hover {
 }
 
 .slide img {
-    width: 800px;
+    width: 1000px;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 800px;
-    margin-top: -130px;
+    width: 1000px;
+    margin-top: -60px;
     display: flex;
     justify-content: center;
 }
@@ -135,7 +135,7 @@ nav img:hover {
 .navigation-auto {
     position: absolute;
     width: 800px;
-    margin-top: 360px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -164,4 +164,61 @@ nav img:hover {
     background-color: var(--laranja);
 }
 
+@media (max-width: 1000px) {
+    #slider {
+        width: 800px;
+    }
 
+    #slides {
+        width: 400%;
+    }
+
+    .slide img {
+        width: 800px;
+    }
+
+    .manual-navigation {
+        width: 800px;
+        margin-top: -130px;
+    }
+}
+
+@media (max-width: 800px) {
+    #slider {
+        width: 600px;
+    }
+
+    #slides {
+        width: 400%;
+    }
+
+    .slide img {
+        width: 600px;
+    }
+
+    .manual-navigation {
+        width: 600px;
+        margin-top: -200px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    #slider {
+        width: 500px;
+    }
+
+    #slides {
+        width: 500%;
+    }
+
+    .slide img {
+        width: 500px;
+    }
+
+    .manual-navigation {
+        width: 500px;
+        margin-top: -240px;
+
+    }
+}
