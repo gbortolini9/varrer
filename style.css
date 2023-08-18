@@ -4,22 +4,23 @@
 }
 
 :root {
-
+    --laranja: rgb(255 102 0);
 }
 
 body {
     background-image: url(img/background1.png);
-    background-size: 100% 40%;
     background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 header {
     display: flex;
-    max-width: 1500;
     justify-content: space-between;
-    margin: 20px 50px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px 0;
 }
 
 #nav-eco {
@@ -38,9 +39,9 @@ nav img {
 }
 
 nav img:hover {
-    background-color: rgb(119, 81, 50);
+    background-color: var(--laranja);
     border-radius: 7px;
-    padding: 10px;
+    padding: 7px;
 }
 
 #logo {
@@ -49,4 +50,18 @@ nav img:hover {
 
 #ecologia-img {
     width: 100px;
+}
+
+section {
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+}
+
+#banner {
+    width: 100%;
+    height: 700px;
+    margin: 30px;
 }
