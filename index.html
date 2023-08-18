@@ -20,8 +20,55 @@
             <img id="ecologia-img" src="img/ecologia.png" alt="Img Ecologia">
         </div>
     </header>
-    <section>
-        <div id="banner"></div>
+    <section id="slider">
+        <div id="slides">
+            <!--Radio buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <!--Fim Radio buttons-->
+
+            <!--Slide Images-->
+            <div class="slide first">
+                <img src="img/varrer_foto01.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/varrer_foto02.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/varrer_foto03.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/varrer_foto05.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/varrer_foto06.jpg" alt="">
+            </div>
+            <!--Fim Slide Images-->
+
+            <!--Navigation auto-->
+            <div id="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+            <!--Fim Navigation auto-->
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div>
+
+
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
