@@ -23,6 +23,10 @@ header {
     padding: 30px 15px;
 }
 
+#nav-invisivel {
+    display: none;
+}
+
 #nav-eco {
     display: flex;
     justify-content: space-between;
@@ -44,12 +48,20 @@ nav img:hover {
     padding: 7px;
 }
 
+.logo-eco-invisivel {
+    display: none;
+}
+
 #logo {
     width: 300px;
 }
 
 #ecologia-img {
     width: 100px;
+}
+
+#ecologia-img-invisivel {
+    display: none;
 }
 
 #slider {
@@ -164,6 +176,84 @@ nav img:hover {
     background-color: var(--laranja);
 }
 
+
+/** header **/
+@media (max-width: 849px) {
+    #nav-eco {
+        display: none;
+    }
+
+    #nav-invisivel {
+        display: flex;
+        margin: auto;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 5px;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    #ecologia-img {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .logo-eco-invisivel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    #logo-invisivel {
+        width: 200px;
+    }
+
+    #ecologia-img-invisivel {
+        display: block;
+        width: 80px;
+    }
+
+    header {
+        padding-bottom: -10px;
+    }
+
+    #slider {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    #ecologia-img-invisivel {
+        display: block;
+        width: 50px;
+    }
+
+    #logo-invisivel {
+        width: 150px;
+    }
+
+    header {
+        padding-bottom: -10px;
+    }
+
+    #slider {
+        margin-top: 10px;
+    }
+}
+
+
+/** Banner **/
 @media (max-width: 1000px) {
     #slider {
         width: 800px;
@@ -242,3 +332,4 @@ nav img:hover {
 
     }
 }
+/** Banner **/
