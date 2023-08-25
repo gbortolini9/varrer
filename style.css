@@ -70,6 +70,12 @@ nav img:hover {
     margin: 30px auto;
     background-color: white;
     overflow: hidden;
+
+    background-image: url(img/background1.png);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #slides {
@@ -176,6 +182,21 @@ nav img:hover {
     background-color: var(--laranja);
 }
 
+main {
+    background-color: white;
+}
+
+/** body **/
+@media(max-width: 600px) {
+    body {
+        background-image: url(img/background1.png);
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+/** body **/
 
 /** header **/
 @media (max-width: 849px) {
@@ -251,6 +272,7 @@ nav img:hover {
         margin-top: 10px;
     }
 }
+/** header **/
 
 
 /** Banner **/
@@ -313,7 +335,27 @@ nav img:hover {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 499px) {
+    #slider {
+        width: 400px;
+    }
+
+    #slides {
+        width: 400%;
+    }
+
+    .slide img {
+        width: 400px;
+    }
+
+    .manual-navigation {
+        width: 400px;
+        margin-top: -320px;
+
+    }
+}
+
+@media (max-width: 400px) {
     #slider {
         width: 300px;
     }
