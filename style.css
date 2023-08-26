@@ -318,6 +318,7 @@ main {
 @media (max-width: 600px) {
     #slider {
         width: 500px;
+        height: 200px;
     }
 
     #slides {
@@ -338,6 +339,7 @@ main {
 @media (max-width: 499px) {
     #slider {
         width: 400px;
+        height: 160px;
     }
 
     #slides {
@@ -358,6 +360,7 @@ main {
 @media (max-width: 400px) {
     #slider {
         width: 300px;
+        height: 120px;
     }
 
     #slides {
