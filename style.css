@@ -222,6 +222,16 @@ p {
     padding-left: 30px;
 }
 
+.section02 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.section02 img{
+    padding-left: 30px;
+}
+
 /** body **/
 @media(max-width: 600px) {
     body {
@@ -436,3 +446,17 @@ p {
     }
 }
 /** txt destacado **/
+
+/** section02 **/
+@media(max-width: 983px) {
+    .section02 {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section02 img{
+        padding: 30px;
+    }
+}
+/** section02 **/
