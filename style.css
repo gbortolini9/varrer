@@ -320,7 +320,6 @@ p {
 }
 /** header **/
 
-
 /** Banner **/
 @media (max-width: 1000px) {
     #slider {
@@ -424,6 +423,14 @@ p {
     }
 }
 /** Banner **/
+
+/** titulo **/
+@media(max-width: 760px) {
+    .titulo02 {
+        width: 100%;
+    }
+}
+/** titulo **/
 
 /** txt destacado **/
 @media(max-width: 850px) {
