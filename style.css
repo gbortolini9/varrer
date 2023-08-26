@@ -219,6 +219,7 @@ p {
 
 .txt-destaque img {
     width: 400px;
+    padding-left: 30px;
 }
 
 /** body **/
@@ -413,3 +414,25 @@ p {
     }
 }
 /** Banner **/
+
+/** txt destacado **/
+@media(max-width: 850px) {
+    .txt-destaque {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .txt-destaque img {
+        width: 400px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+}
+@media(max-width: 599px) {
+    .txt-destaque img {
+        width: 100%;
+    }
+}
+/** txt destacado **/
