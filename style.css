@@ -190,10 +190,16 @@ main {
     margin: auto;
 }
 
-.titulo {
+.titulo01 {
     width: 300px;
     padding-bottom: 20px;
     padding-top: 15px;
+}
+
+.titulo02 {
+    width: 700px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 p {
@@ -204,9 +210,11 @@ p {
     background-color: rgb(93, 93, 93);
     display: flex;
     padding: 20px;
-    margin-top: 15px;
+    margin: 20px;
     align-items: center;
     color: white;
+    border-radius: 7px;
+    box-shadow: 4px 4px 17px 1px #0000008a;;
 }
 
 .txt-destaque img {
