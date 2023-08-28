@@ -234,9 +234,6 @@ p {
     padding-left: 30px;
 }
 
-
-
-
 footer {
     background-image: url(img/background1.png);
     background-position: center;
@@ -281,6 +278,17 @@ h3 {
     padding: 15px;
 }
 
+.infos-contato{
+    display: flex;
+    background-color: aqua;
+}
+
+.line {
+    width: 2px;
+    background-color: var(--laranja);
+    height: 100%;
+}
+
 .contato-email {
     margin-top: 30px;
     display: flex;
@@ -311,7 +319,7 @@ form {
     width: 100%;   
 }
 
-  label, input, textarea {
+  input, textarea {
     display: block;
     margin-bottom: 10px;
     width: 80vh;
