@@ -6,6 +6,7 @@
 
 :root {
     --laranja: rgb(255 102 0);
+    --vermelho: rgb(254, 0, 0);
 }
 
 body {
@@ -280,6 +281,62 @@ h3 {
     padding: 15px;
 }
 
+.contato-email {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-email img {
+    width: 100px;
+    padding-top: 50px;
+}
+
+h4 {
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 20px;
+    width: 60vw;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    width: 100%;   
+}
+
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 80vh;
+}
+
+.button-enviar {
+    width: 10%;
+    height: 50px;
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+.button-enviar:hover {
+    background-color: var(--laranja);
+    cursor: pointer;
+    box-shadow: inset -2px -2px 14px 0px #0000008a;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+#mensagem {
+    height: 100px;
+}
 
 /** body **/
 @media(max-width: 680px) {
