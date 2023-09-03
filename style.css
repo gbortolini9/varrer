@@ -323,6 +323,7 @@ h4 {
     padding: 100px;
     border-radius: 7px;
     justify-content: space-between;    
+    box-shadow: -2px -2px 14px 0px #0000008a;
 }
 
 .contato-coluna {
@@ -371,6 +372,15 @@ input, textarea {
     cursor: pointer;
     box-shadow: inset -2px -2px 14px 0px #0000008a;
     box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+aside {
+    display: flex;
+    gap: 10px;
+}
+
+aside img {
+    width: 50%;
 }
 
 /** body **/
