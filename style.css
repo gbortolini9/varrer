@@ -798,5 +798,9 @@ footer {
     .google-maps {
         width: 100%;
     }
+
+    .logo-footer img {
+        width: 90%;
+    }
 }
 /** footer **/
