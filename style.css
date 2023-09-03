@@ -385,6 +385,35 @@ input, textarea {
 }
 /** body **/
 
+/** p **/
+@media(max-width: 670px) {
+    p {
+        font-size: 1.2em;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width: 670px) {
+    h1 {
+        font-size: 1.1em;
+    }
+
+    .titulo01 {
+    width: 60px;
+    }
+}
+
+@media(max-width: 500px) {
+    h4 {
+        font-size: 1.1em;
+    }
+}
+/** p **/
+
 /** header **/
 @media (max-width: 909px) {
     #nav-eco {
@@ -651,7 +680,7 @@ input, textarea {
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 550px) {
     input, textarea {
         width: 50vh;
     }
@@ -667,11 +696,23 @@ input, textarea {
 
 @media(max-width: 471px) {
     input, textarea {
-        width: 30vh;
+        width: 50vh;
     }
 
     .button-enviar {
         width: 40%;
+    }
+}
+
+@media(max-width: 440px) {
+    input, textarea {
+        width: 40vh;
+    }
+}
+
+@media(max-width: 355px) {
+    input, textarea {
+        width: 30vh;
     }
 }
 
