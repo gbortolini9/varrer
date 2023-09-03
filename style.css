@@ -795,5 +795,8 @@ footer {
 }
 
 @media (max-width: 450px) {
+    .google-maps {
+        width: 100%;
+    }
 }
 /** footer **/
