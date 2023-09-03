@@ -343,12 +343,34 @@ h4 {
 form {
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
 }
 
 input, textarea {
     display: block;
     margin-bottom: 10px;
     width: 60vh;
+}
+
+#mensagem {
+    height: 100px;
+}
+
+.button-enviar {
+    width: 20%;
+    height: 50px;
+    background-color:grey;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+.button-enviar:hover {
+    background-color: var(--laranja);
+    cursor: pointer;
+    box-shadow: inset -2px -2px 14px 0px #0000008a;
+    box-shadow: 4px 2px 14px 0px #0000008a;
 }
 
 /** body **/
@@ -613,6 +635,21 @@ input, textarea {
     }
 }
 /** section02 **/
+
+/** formulario contato **/
+@media(max-width: 1045px) {
+    .contato-form {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    form {
+        padding-left: 0;
+    }
+}
+
+/** formulario contato **/
 
 /** footer **/
 @media(max-width: 1322px) {
