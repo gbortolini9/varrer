@@ -30,11 +30,6 @@ header {
     display: none;
 }
 
-.line {
-    display: none;
-}
-
-
 #nav-eco {
     display: flex;
     justify-content: space-between;
