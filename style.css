@@ -487,6 +487,7 @@ footer {
     #ecologia-img-invisivel {
         display: block;
         width: 80px;
+        padding-right: 5px;
     }
 
     header {
