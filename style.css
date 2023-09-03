@@ -648,6 +648,12 @@ input, textarea {
     }
 }
 
+@media(max-width: 650px) {
+    input, textarea {
+        width: 40vh;
+    }
+}
+
 /** formulario contato **/
 
 /** footer **/
