@@ -216,7 +216,7 @@ p {
 }
 
 .txt-destaque {
-    background-color: rgb(93, 93, 93);
+    background-image: linear-gradient(to right, rgb(93, 93, 93), rgb(134, 134, 134));
     display: flex;
     padding: 20px;
     margin: 40px 20px;
@@ -248,7 +248,6 @@ h3 {
 
 .infos-contato{
     display: flex;
-    background-color: aqua;
 }
 
 .top-email {
@@ -273,7 +272,7 @@ h4 {
 .contato-form {
     margin: 20px 0;
     display: flex;
-    background-color: rgb(93, 93, 93);
+    background-image: linear-gradient(to right, rgb(93, 93, 93), rgb(134, 134, 134));
     color: white;
     padding: 80px 100px;
     border-radius: 7px;
