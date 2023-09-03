@@ -696,17 +696,28 @@ input, textarea {
     }
 }
 
-@media(max-width: 550px) {
+@media(max-width: 660px) {
     input, textarea {
         width: 50vh;
     }
 }
 
-@media(max-width: 510px) {
+@media(max-width: 570px) {
+    input, textarea {
+        width: 40vh;
+    }
+}
 
+@media(max-width: 510px) {
     .contato-form {
         padding: 50px;
         margin: 20px 0 20px 0;
+    }
+}
+
+@media(max-width: 500px) {
+    input, textarea {
+        width: 40vh;
     }
 }
 
