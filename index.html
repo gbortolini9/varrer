@@ -8,7 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -93,7 +93,9 @@
 
     </section>
     <main>
-        <img class="titulo01" src="img/titulo1.png" alt="titulo01">
+        <div class="title">
+            <img class="titulo01" src="img/varrer_icon.png" alt="varrer-icone "><h1>QUEM SOMOS</h1>
+        </div>
         <p>A <strong>VARRER</strong> é uma empresa gaúcha que desenvolve produtos destinados à indústria, comércio,
             hospitais, pavimentação, moinhos, tubulações e limpeza geral.</p>
         <div class="txt-destaque">
@@ -104,7 +106,9 @@
         </div>
         <p>Qualidade e durabilidade são conceitos garantidos com a seleção de materiais resistentes às
             mais variadas aplicações</p>
-        <img class="titulo02" src="img/titulo2.png" alt="titulo02">
+        <div class="title">
+            <img class="titulo01" src="img/varrer_icon.png" alt="varrer-icone"><h1>RESPONSABILIDADE SOCIOAMBIENTAL</h1>
+        </div>
         <p>A <strong>VARRER</strong> é uma empresa que desenvolve ações objetivas em relação a conservação do meio
             ambiente. Essa preocupação inicia na escolha dos insumos às técnicas de produção.</p>
             <div class="section02">
@@ -117,26 +121,36 @@
                     poliéster, nylon e poliamida.</p>
                 <img src="img/varrer_socioamb.png" alt="">
             </div>
-        <section class="contato-email">
+        <section class="top-email">
             <img src="img/varrer_icon.png" alt="">
             <h4>Para receber mais informações, tirar dúvidas ou enviar sugestões, entre em contato conosco. Será um prazer atendê-lo!</h4>
-            <form action="https://api.staticforms.xyz/submit" method="post">
-                <label for="nome">Nome:</label>
-                <input id="nome" type="text" id="nome" name="nome" required>
-                
-                <label for="email">E-mail:</label>
-                <input id="email" type="email" id="email" name="email" required>
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                
-                <input class="button-enviar" type="submit" value="Enviar">
-
-                <input type="hidden" name="accessKey" value="93184c90-995c-47e9-a65a-0e4a5189ffae">
-            </form>
         </section>
-
+        <section class="contato-form">
+            <div class="contato-coluna">
+                <h5>LIGUE PARA NÓS</h5>
+                <p>(51) 3033.1800</p>
+                <h5>LOCALIZAÇÃO</h5>
+                <p>Rua Rio Grande, 1345 - Centro - Esteio - RS</p>
+                <h5>HORÁRIO COMERCIAL</h5>
+                <p>Segunda a Sexta das 08:00 às 18:00</p>
+            </div>
+            <div class="form-coluna">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    
+                    <input class="button-enviar" type="submit" value="Enviar">
     
+                    <input type="hidden" name="accessKey" value="93184c90-995c-47e9-a65a-0e4a5189ffae">
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="rodape">
