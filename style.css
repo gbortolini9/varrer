@@ -30,6 +30,11 @@ header {
     display: none;
 }
 
+.line {
+    display: none;
+}
+
+
 #nav-eco {
     display: flex;
     justify-content: space-between;
@@ -43,6 +48,10 @@ nav {
 
 nav img {
     width: 30px;
+}
+
+.home-ico {
+    width: 35px;
 }
 
 nav img:hover {
@@ -372,14 +381,6 @@ footer {
 
 .infos-footer h5 {
     margin-top: 20px;
-    text-decoration: underline;
-}
-
-.line {
-    background-color: var(--laranja);
-    width: 1px;
-    height: 15vw;
-    margin: auto;
 }
 
 .maps-footer p {
@@ -390,7 +391,6 @@ footer {
 }
 
 .maps-footer h5 {
-    text-decoration: underline;
     color: white;
     padding-top: 10px;
 }
@@ -399,7 +399,7 @@ footer {
 @media(max-width: 680px) {
     body {
         background-image: url(img/background1.png);
-        background-position: top;
+        background-position: bottom;
         background-attachment: fixed;
         background-repeat: repeat;
         background-size: cover;
@@ -495,6 +495,16 @@ footer {
 
     #slider {
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 499px) {
+    nav img {
+        width: 25px;
+    }
+
+    .home-ico {
+        width: 30px;
     }
 }
 
@@ -781,5 +791,8 @@ footer {
     .infos-maps {
         justify-content: center;
     }
+}
+
+@media (max-width: 450px) {
 }
 /** footer **/
