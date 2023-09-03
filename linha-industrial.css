@@ -21,9 +21,44 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .imagens-linha-industrial img {
-    width: 60%;
+    width: 1000px;
 }
 
+.btn-button-linhas {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button-linhas {
+    width: 300px;
+    height: 40px;
+    background-color:grey;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+.button-linhas:hover {
+    cursor: pointer;
+    background-color: var(--laranja);
+    box-shadow: inset -2px -2px 14px 0px #0000008a;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+@media(max-width: 1059px) {
+    .imagens-linha-industrial img {
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -208,10 +208,12 @@ main {
 h1 {
     font-family: 'Audiowide', cursive;
     font-size: 1.6em;
+    padding-top: 20px;
 }
 
 .titulo01 {
     width: 80px;
+    padding-top: 20px;
 }
 
 p {
@@ -655,21 +657,19 @@ footer {
 }
 /** Banner **/
 
+/** main **/
+@media(max-width: 560px) {
+    main {
+        padding: 0 10px;
+    }
+}
+/** main **/
+
 /** titulo **/
-@media(max-width: 760px) {
-    .titulo02 {
-        width: 100%;
+@media(max-width: 500px) {
+    .titulo01 {
+        width: 60px;
     }
-}
-
-@media(max-width: 760px) {
-    .titulo02 {
-        width: 100%;
-    }
-}
-
-@media(max-width: 340px) {
-
 }
 /** titulo **/
 
