@@ -63,6 +63,12 @@ a {
     color: white;
 }
 
+#marcas-p {
+    margin-top: 30px;
+    font-size: 1em;
+    margin-bottom: -7px;
+}
+
 #marcas {
-    padding: 20px;
+    padding-bottom: 20px;
 }
