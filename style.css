@@ -780,6 +780,28 @@ footer {
     }
 }
 
+@media (max-width: 335px) {
+    #slider {
+        width: 290px;
+        height: 120px;
+    }
+
+    #slides {
+        width: 400%;
+        height: 120px;
+    }   
+
+    .slide img {
+        width: 290px;
+    }
+
+    .manual-navigation {
+        width: 290px;
+        margin-top: -30px;
+
+    }
+}
+
 /** Banner **/
 
 /** main **/
