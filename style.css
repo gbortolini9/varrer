@@ -332,7 +332,7 @@ input, textarea {
 aside {
     display: flex;
     gap: 5px;
-    padding-bottom: 30px;
+    padding: 50px;
 }
 
 aside img {
