@@ -347,6 +347,11 @@ h4 {
     height: 130px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .button-enviar {
     width: 100px;
     height: 40px;
