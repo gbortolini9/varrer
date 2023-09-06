@@ -328,29 +328,34 @@ h4 {
     width: 35px;
 }
 
+.formm p {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
 .form-coluna {
     display: flex;
     flex-direction: column;
 }
 
-input, textarea {
-    display: block;
-    margin-bottom: 10px;
+.nome, .email, .mensagem {
     width: 40vw;
 }
 
-#mensagem {
+.mensagem {
     height: 130px;
 }
 
 .button-enviar {
     width: 100px;
-    height: 50px;
+    height: 40px;
     background-color:grey;
     border: none;
     border-radius: 7px;
     color: white;
     box-shadow: 4px 2px 14px 0px #0000008a;
+    margin-top: 20px;
 }
 
 .button-enviar:hover {
@@ -865,51 +870,8 @@ footer {
         justify-content: center;
     }
     
-    input, textarea {
+    .nome, .email, .mensagem {
         width: 70vw;
-    }
-    
-    #mensagem {
-        height: 130px;
-    }
-}
-
-@media(max-width: 400px) {
-    .contato-form {
-        margin: 10px 0;
-        padding: 20px 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    input, textarea {
-        width: 70vw;
-    }
-    
-    #mensagem {
-        height: 70px;
-    }
-}
-
-@media(max-width: 320px) {
-    .contato-form {
-        margin: 15px -10px;
-        padding: 20px 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    input, textarea {
-        width: 70vw;
-    }
-    
-    #mensagem {
-        height: 70px;
-    }
-
-    .button-enviar {
-        width: 100px;
-        height: 40px;
     }
 }
 /** formulario contato **/

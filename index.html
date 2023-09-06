@@ -140,19 +140,25 @@
                 </section>
             </div>
             <div class="form-coluna">
-                <form action="https://api.staticforms.xyz/submit" method="post">
-                    <label for="nome">Nome:</label>
-                    <input id="nome" type="text" id="nome" name="nome" required>
+                <form class="formm" action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+                    <input type="hidden" name="recipient" value="http://www.varrer.ind.br/">
+                    <!-- Pode ser qualquer endereço de email -->
+                    <input type="hidden" name="redirect" value="http://www.varrer.ind.br/"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                    <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+                    <input type="hidden" name="email" value="http://www.varrer.ind.br/">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+                    <p>Nome:<br/> 
+                    <input class="nome" type="text" size="30" name="nome" required></p>   
                     
-                    <label for="email">E-mail:</label>
-                    <input id="email" type="email" id="email" name="email" required>
+                    <p>E-mail:<br/> 
+                    <input class="email" type="text" size="30" name="replyto" required></p>   
                     
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    <p>Assunto:<br/> 
+                    <input class="mensagem" type="text" size="35" name="Comentarios" required></p>   
                     
-                    <input class="button-enviar" type="submit" value="Enviar">
-    
-                    <input type="hidden" name="accessKey" value="93184c90-995c-47e9-a65a-0e4a5189ffae">
+                    <p>
+                    <input class="button-enviar" type="submit" name="BTEnvia" value="Enviar"> 
+                    <input class="button-enviar" type="reset" name="BTApaga" value="Apagar"></p> 
                 </form>
             </div>
         </section>
