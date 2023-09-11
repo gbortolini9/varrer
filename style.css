@@ -352,7 +352,7 @@ h4 {
     justify-content: space-between;
 }
 
-.button-enviar {
+.button-enviar-1 {
     width: 100px;
     height: 40px;
     background-color:grey;
@@ -363,7 +363,25 @@ h4 {
     margin-top: 20px;
 }
 
-.button-enviar:hover {
+.button-enviar-1:hover {
+    background-color: green;
+    cursor: pointer;
+    box-shadow: inset -2px -2px 14px 0px #0000008a;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+}
+
+.button-enviar-2 {
+    width: 100px;
+    height: 40px;
+    background-color:grey;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 4px 2px 14px 0px #0000008a;
+    margin-top: 20px;
+}
+
+.button-enviar-2:hover {
     background-color: var(--laranja);
     cursor: pointer;
     box-shadow: inset -2px -2px 14px 0px #0000008a;
