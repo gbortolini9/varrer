@@ -355,7 +355,7 @@ h4 {
 .button-enviar-1 {
     width: 100px;
     height: 40px;
-    background-color:grey;
+    background-color: rgb(0, 158, 0);
     border: none;
     border-radius: 7px;
     color: white;
@@ -364,7 +364,7 @@ h4 {
 }
 
 .button-enviar-1:hover {
-    background-color: rgb(0, 158, 0);
+    background-color: rgb(0, 194, 0);
     cursor: pointer;
     box-shadow: inset -2px -2px 14px 0px #0000008a;
     box-shadow: 4px 2px 14px 0px #0000008a;
@@ -373,7 +373,7 @@ h4 {
 .button-enviar-2 {
     width: 100px;
     height: 40px;
-    background-color:grey;
+    background-color: var(--laranja);
     border: none;
     border-radius: 7px;
     color: white;
@@ -382,7 +382,7 @@ h4 {
 }
 
 .button-enviar-2:hover {
-    background-color: var(--laranja);
+    background-color: rgb(255, 134, 53);
     cursor: pointer;
     box-shadow: inset -2px -2px 14px 0px #0000008a;
     box-shadow: 4px 2px 14px 0px #0000008a;
